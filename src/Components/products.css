@@ -1,0 +1,19 @@
+.productswrapper{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:10px;
+  margin-top: 80px;
+}
+/* .card{
+    background-color: chocolate;
+    border: 1px solid yellow;
+} */
+
+.btn{
+    padding: 4px 14px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: royalblue;
+    color: white;
+    font-size: 18px;
+}
