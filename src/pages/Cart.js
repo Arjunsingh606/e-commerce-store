@@ -17,7 +17,7 @@ const Cart = () => {
                <img src={product.image} alt="load ho rahi hai" />
                <h5>{product.title}</h5>
                <h5>{product.price}</h5>
-               <button className="btn">Remove</button>
+               <button className="cart-btn">Remove</button>
               </div>
              ))
            }

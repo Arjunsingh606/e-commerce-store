@@ -8,7 +8,7 @@ const Products = () => {
 
         const[products, setProducts] = useState([]);
 
-        console.log("cartSliceReducer",add)
+        // console.log("cartSliceReducer",add)
         useEffect(()=>{
              const fetchproducts = async ()=>{
                 const res = await fetch("https://fakestoreapi.com/products");

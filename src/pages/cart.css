@@ -2,3 +2,17 @@
     display: flex;
     justify-content: space-evenly;
 }
+.cart-btn{
+    display: inline-block;
+    width: 141px;
+    height: 56px;
+    padding: 1px 14px !important ;
+    border: 1px solid white;
+    border-radius: 25px;
+    background-color: royalblue;
+    color: white;
+    font-size: 18px;
+}
+.cart-btn:hover{
+    background-color: crimson;
+}

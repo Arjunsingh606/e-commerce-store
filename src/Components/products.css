@@ -22,3 +22,6 @@
     height: 100px;
     transition: width 2s;
 }
+.btn:hover{
+    background-color: crimson;
+}
