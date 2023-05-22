@@ -17,3 +17,8 @@
     color: white;
     font-size: 18px;
 }
+.card-image{
+    width: 100px;
+    height: 100px;
+    transition: width 2s;
+}

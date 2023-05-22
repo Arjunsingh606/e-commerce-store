@@ -1,4 +1,5 @@
 import React from 'react'
+import './navbar.css'
 import {Link} from 'react-router-dom'
 import { useSelector } from 'react-redux'
 
@@ -10,7 +11,7 @@ const Navbar = () => {
 
   return (
     <div className='navItems'>
-     <span className='logo'>Redux store</span>
+     <span className='logo'>E-Commerce Store</span>
      <div className='navbarItem'>
         <Link className='navLink' to='/'>Home</Link>
         <Link className='navLink' to='/Cart'>Cart</Link>

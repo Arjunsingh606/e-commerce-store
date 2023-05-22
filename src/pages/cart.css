@@ -1,0 +1,4 @@
+.cartCard{
+    display: flex;
+    justify-content: space-evenly;
+}
