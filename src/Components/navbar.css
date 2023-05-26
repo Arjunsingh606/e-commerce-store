@@ -3,12 +3,14 @@
     justify-content: space-between;
     padding-right: 120px;
     padding-left: 30px;
-    margin-top: 10px;
     height: 60px;
     background-color: #2874F0;
     align-items: center;
     color: white;
     font-size: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 .navbarItem{
     display: flex;
