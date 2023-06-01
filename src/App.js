@@ -5,6 +5,8 @@ import Home from './pages/Home';
 import Cart from './pages/Cart';
 import Navbar from './Components/Navbar';
 import store from './store/store';
+import Footer from './Components/Footer';
+import Example from './Components/Example/Example';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
                <Route path='/' exact><Home/></Route>
               <Route path='/Cart'><Cart/></Route>
              </Switch>
+            <Example/>
+             <Footer/>
       </Provider>
       
       

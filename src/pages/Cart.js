@@ -10,6 +10,10 @@ const Cart = () => {
  const handleRemove = (productId)=>{
      dispatch(remove(productId))
 }
+// const handleQuantity = (product)=>{
+//   return product = product+1;
+
+// }
   return (
     <>
        <h3>Cart Items</h3>
@@ -21,7 +25,8 @@ const Cart = () => {
                <img src={product.image} alt="load ho rahi hai" />
                <h5>{product.title}</h5>
                <h5>{product.price}</h5>
-               <button onClick={handleRemove(product.id)} className="cart-btn">Remove</button>
+               <h5>Quantity:</h5>
+               <button onClick={() => handleRemove(product.id)} className="cart-btn">Remove</button>
               </div>
              ))
            }
