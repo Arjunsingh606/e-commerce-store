@@ -10,7 +10,7 @@ const Footer = () => {
             <h2>E commerce Store</h2>
           </div>
           <div className="footer-item">
-            <h3>Products</h3>
+            <h3 className="footerItemHeading">Products</h3>
             <ul>
               <li>Fashion</li>
               <li>Electronics</li>
@@ -19,7 +19,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="footer-item">
-            <h3>Company</h3>
+            <h3 className="footerItemHeading">Company</h3>
             <ul>
               <li>About Us</li>
               <li>Blog</li>
@@ -28,7 +28,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="footer-item">
-            <h3>Social</h3>
+            <h3 className="footerItemHeading">Social</h3>
             <ul>
               <li>Facebook</li>
               <li>Twitter</li>

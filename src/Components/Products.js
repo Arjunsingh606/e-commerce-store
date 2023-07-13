@@ -26,6 +26,14 @@ const Products = () => {
 
 
   return (
+    <>
+      <div className="button-cat">
+        <button className='cat-btn'>All</button>
+        <button className='cat-btn'>Mens Collection</button>
+        <button className='cat-btn'>Electronics</button>
+        <button className='cat-btn'>Jewelery</button>
+        
+      </div>
       <div className='productswrapper'>
         {
             products.map(product =>(
@@ -39,6 +47,7 @@ const Products = () => {
             ))
         }
       </div>
+      </>
   )
 }
 
